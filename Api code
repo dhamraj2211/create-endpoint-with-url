@@ -1,0 +1,25 @@
+const http=require("http");
+const fs=require("fs")
+
+const server=http.createServer((req,res)=>{
+ if (req.url=='/'){
+  res.end("nothing found ")
+ }
+ else if(req.url=="/starttime"){
+  res.end(data)
+   }
+ else if(req.url="/endtime"){
+  res.end(data)
+  }
+ fs.readFile('${__dirname}/interview/insta.json',"utf-8",(err,data)=>{
+ console.log(data)
+ }
+ }
+ else{
+  res.writeHead(434,("Content-type":"text/html"));
+  res.end("<h1>SOme Error Occure</h1>");
+  }
+);
+server.listen(8000,"127.8.8.0",()=>
+console.log("Thank you")
+)
