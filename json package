@@ -1,0 +1,21 @@
+{
+   "reach": {
+       "total": "10",
+       "perDay": [
+           {
+               "value": 1,
+               "time": 1615334400
+           }
+       ]
+   },
+    "videoViews": {
+    	"total": 20,
+       "perDay": [
+           {
+               "value": 10,
+               "time": 1615334400
+           }
+       ]
+    }
+
+}
