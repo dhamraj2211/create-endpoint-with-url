@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find imfomation
+    </title>
+<script src="insta.js"></script>
+</head>
+<body>
+<h1>Bootstrap !</h1>
+<div class="container">
+<h1>Hello world !</h1>
+    <input class="btn btn-success" type="submit" value="Submit">
+</div>
+
+</body>
+</html>
